@@ -10,6 +10,12 @@
 #pragma once
 #endif // _MSC_VER > 1000
 
+#ifdef LIVE_ENABLE_ASSERT
+#  define LIVE_ASSERT(x) assert(x)
+#else
+#  define LIVE_ASSERT(x) (void)0
+#endif
+
 
 #define _PPL_USE_ASIO
 
