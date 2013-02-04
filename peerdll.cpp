@@ -13,7 +13,7 @@
 #include <ppl/os/shell.h>
 
 #include "common/VersionNumber.h"
-#include "Version.h"
+#include "live/live/Version.h"
 
 #ifndef _WIN32
 PPL_DEFINE_GUID_NULL;
