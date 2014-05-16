@@ -126,7 +126,7 @@ bool LIVE_DECL LiveGetChannelStatus(void* handle, CCoreStatus* status)
 	status->m_DownloadSpeed = liveInfo->LocalPeerInfo.Flow.GetRecentDownloadSpeed();
 	status->m_UploadSpeed = liveInfo->LocalPeerInfo.Flow.GetRecentUploadSpeed();
 
-	status->m_ConnectionCountt = liveInfo->RemotePeerCount;
+	status->m_ConnectionCount = liveInfo->RemotePeerCount;
 	status->m_PendingPeerCount = liveInfo->IPPoolInfo.PendingConnectionCount;
 	status->m_TotalPeerCount = liveInfo->IPPoolInfo.TotalPoolSize;
 
