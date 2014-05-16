@@ -7,6 +7,7 @@
 
 #include <boost/config.hpp>
 
+#ifndef STATIC_BIND_LIVE_LIB
 #ifdef BOOST_HAS_DECLSPEC
 
 #ifdef LIVE_SOURCE
@@ -16,6 +17,9 @@
 #endif  // PPBOX_SOURCE
 
 #else
+# define LIVE_DECL
+#endif
+#else 
 # define LIVE_DECL
 #endif
 
