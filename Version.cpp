@@ -2,4 +2,4 @@
 
 #include "StdAfx.h"
 #define VERSION_SOURCE
-#include "live/live/Version.h"
+#include "live/Version.h"

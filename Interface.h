@@ -3,7 +3,7 @@
 #ifndef _LIVE_LIVE_INTERFACE_H_
 #define _LIVE_LIVE_INTERFACE_H_
 
-#include <live/live/CoreStatus.h>
+#include <live/CoreStatus.h>
 
 #include <boost/config.hpp>
 
